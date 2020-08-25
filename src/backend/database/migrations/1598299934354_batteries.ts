@@ -11,7 +11,6 @@ export default class Batteries extends BaseSchema {
       table.string('manufacturer')
       table.integer('charging_cycles').defaultTo(1)
       table.timestamps(true)
-
     })
   }
 

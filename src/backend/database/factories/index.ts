@@ -7,7 +7,7 @@ export const BatteryFactory = Factory
       name: faker.commerce.productName(),
       capacity: faker.random.number(50000),
       manufacturer: faker.company.companyName(),
-      charging_cycles: 1
+      charging_cycles: 1,
     }
   })
   .build()

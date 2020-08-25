@@ -9,7 +9,7 @@ export default class BatteriesController {
     // const batteries = await BatteryFactory.createMany(10)
     const batteries = await Battery.all()
 
-    return batteries;
+    return batteries
   }
 
   public async create (ctx: HttpContextContract) {
