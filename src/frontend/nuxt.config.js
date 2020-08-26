@@ -5,12 +5,17 @@ export default {
   components: true,
 
   buildModules: [
-    '@nuxtjs/tailwindcss',
     '@nuxt/typescript-build',
+    ['@nuxtjs/vuetify', { /* module options */ }]
   ],
   modules: [
     '@nuxtjs/axios',
   ],
+
+  vuetify: {
+    /* module options */
+  },
+
   axios: {
     // proxyHeaders: false
   }
